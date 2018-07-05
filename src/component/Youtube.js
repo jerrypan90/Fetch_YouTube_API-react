@@ -6,7 +6,7 @@ import '../App.css';
 import Search from "./Search";
 import List from "./List";
 
-const API = 'AIzaSyB3sbpQiV2bkCI0aPvMgAWmA9uuTqE1_m4';
+const API = process.env.REACT_APP_YT_API_KEY;
 let result = 10;
 
 class Youtube extends Component {

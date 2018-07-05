@@ -20,8 +20,8 @@ class App extends Component {
   }
 
   static defaultProps = {
-    domain: 'jerryplx.auth0.com',
-    clientID: '04OFPZU3pfJJjQBhViF78MkJZ5QZp1o6',
+    domain: process.env.REACT_APP_AUTH0_DOMAIN,
+    clientID: process.env.REACT_APP_AUTH0_CLIENT_ID,
   }
 
   componentWillMount() {
