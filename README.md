@@ -1,11 +1,11 @@
 # YouTube API Fetch App
-This is a web app built using React to do fetch API from YouTube.
+This is a web app built using React to fetch API from YouTube.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-You will need require **npm** and you can install it [here](https://nodejs.org/en/)
+You will need **npm** and you can install it [here](https://nodejs.org/en/)
 
 ## Installing
 1. Fork this repo
