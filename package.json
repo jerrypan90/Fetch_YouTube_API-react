@@ -2,10 +2,12 @@
   "name": "youtube-reactjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jerrypan90.github.io/Fetch_YouTube_API-react/",
   "dependencies": {
     "auth0-lock": "^11.7.2",
     "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
+    "gh-pages": "^1.2.0",
     "npm": "^6.1.0",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
@@ -16,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
